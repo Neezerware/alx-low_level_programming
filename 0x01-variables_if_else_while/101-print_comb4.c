@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - This program prints all possible combinations 
+ * main - This program prints all possible combinations
  * of three digits from 0 to 99
  * Return: 0 (Successful)
  */
@@ -13,7 +13,7 @@ int main(void)
 	{
 		for (b = 49; b < 58; b++)
 		{
-			for (c= 50; c < 58; c++)
+			for (c = 50; c < 58; c++)
 			{
 				if (c > b && b > a)
 				{
