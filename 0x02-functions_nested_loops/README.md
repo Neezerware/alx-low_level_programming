@@ -11,3 +11,8 @@ Functions and Nested Loops
  - 9-times_table.c: a function that prints the 9 times table, starting with 0
  - 10-add.c: a function that adds two integers and returns the result
  - 11-print_to_98.c: a function that prints all natural numbers from n to 98, followed by a new line
+ - 100-times_table.c: prints the n times table, starting with 0
+ - 101-natural.c:multiples of 3 & 5 below 1024
+ - 102-fibonacci.c: first 50 Fibonacci numbers starting with 1 & 2
+ - 103-fibonacci.c: sum of even value Fibonacci terms not exceeding 4,000,00
+ - 104-fibonacci.c: first 98 Fibonacci numbers, starting with 1 and 2, followed by a new line
