@@ -2,10 +2,9 @@
 
 /**
  * main - program that prints a[2]=98,
- * followd by a newline
- * Return: 0 (Successful)
+ * followed by a newline
+ * Return: 0
  */
-
 
 int main(void)
 {
