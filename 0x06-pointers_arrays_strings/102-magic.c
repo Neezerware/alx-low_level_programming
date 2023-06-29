@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+/**
+ * main - program that prints a[2]=98,
+ * followd by a newline
+ * Return: 0 (Successful)
+ */
+
+
 int main(void)
 {
 	int n;
@@ -21,4 +28,3 @@ int main(void)
 	printf("a[2] = %d\n", a[2]);
 	return (0);
 }
-
