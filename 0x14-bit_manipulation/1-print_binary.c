@@ -4,13 +4,13 @@
  * print_binary - a function that prints the binary representation of a number
  * @n: binary result
  */
-void print_binary(unsigned long int n)
+print_binary(unsigned long int n)
 {
+	int i;
 	int counter = 0;
 	unsigned long int value;
-	size_t num_bits = sizeof(n) * 8;
 
-	for (size_t i = num_bits - 1; i < num_bits; i--)
+	for (i = 63; i >= 0; i--)
 	{
 		value = n >> i;
 
@@ -20,12 +20,9 @@ void print_binary(unsigned long int n)
 			counter++;
 		}
 		else if (counter)
-		{
 			_putchar('0');
-		}
 	}
 	if (!counter)
-	{
 		_putchar('0');
-	}
 }
+
