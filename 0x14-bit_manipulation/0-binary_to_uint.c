@@ -9,11 +9,11 @@
  */
 unsigned int binary_to_uint(const char *b)
 {
-	if (!b)
-		return (0);
-
 	unsigned int result = 0;
 	int i;
+
+	if (!b)
+		return (0);
 
 	for (i = 0; b[i]; i++)
 	{
