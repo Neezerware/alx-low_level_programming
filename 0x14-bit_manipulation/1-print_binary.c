@@ -4,7 +4,7 @@
  * print_binary - a function that prints the binary representation of a number
  * @n: binary result
  */
-print_binary(unsigned long int n)
+void print_binary(unsigned long int n)
 {
 	int i;
 	int counter = 0;
@@ -18,7 +18,7 @@ print_binary(unsigned long int n)
 		{
 			_putchar('1');
 			counter++;
-		} void
+		}
 		else if (counter)
 			_putchar('0');
 	}
