@@ -6,9 +6,9 @@
  */
 print_binary(unsigned long int n)
 {
-	int counter = 0;
-	unsigned long int value;
 	int i;
+	int counter = 0;
+	unsigned long int current;
 
 	for (i = 63; i >= 0; i--)
 	{
